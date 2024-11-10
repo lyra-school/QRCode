@@ -32,14 +32,11 @@ android {
 }
 
 dependencies {
-
+    implementation("com.journeyapps:zxing-android-embedded:4.3.0")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation("com.google.zxing:core:3.5.3")
-    implementation("com.google.zxing:android-core:3.5.3")
-    implementation("com.google.zxing:android:3.5.3")
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
